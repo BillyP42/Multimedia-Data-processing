@@ -1,0 +1,57 @@
+﻿  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,45): error C2676: '-' binario: 'const std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<_Ty>>,std::_Iterator_base0>' non definisce questo operatore né una conversione in un tipo che può essere accettato dall'operatore predefinito
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,45): error C2676:         with
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,45): error C2676:         [
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,45): error C2676:             _Ty=std::pair<const int8_t,int64_t>
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,45): error C2676:         ]
+  (compilazione del file di origine 'main.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\xutility(4303,30):
+  potrebbe essere 'unknown-type std::operator -(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
+  	C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,38):
+  	'unknown-type std::operator -(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)': impossibile dedurre l'argomento modello per 'const std::move_iterator<_Iter> &' da 'const std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<_Ty>>,std::_Iterator_base0>'
+          with
+          [
+              _Ty=std::pair<const int8_t,int64_t>
+          ]
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\xutility(1785,5):
+  o 'unknown-type std::operator -(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
+  	C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,38):
+  	'unknown-type std::operator -(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)': impossibile dedurre l'argomento modello per 'const std::reverse_iterator<_BidIt> &' da 'const std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<_Ty>>,std::_Iterator_base0>'
+          with
+          [
+              _Ty=std::pair<const int8_t,int64_t>
+          ]
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\xutility(1785,5):
+  o 'unknown-type std::operator -(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
+  	C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,38):
+  	'unknown-type std::operator -(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)': impossibile dedurre l'argomento modello per 'const std::reverse_iterator<_BidIt> &' da 'const std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<_Ty>>,std::_Iterator_base0>'
+          with
+          [
+              _Ty=std::pair<const int8_t,int64_t>
+          ]
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\xutility(4303,30):
+  o 'unknown-type std::operator -(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
+  	C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,38):
+  	'unknown-type std::operator -(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)': impossibile dedurre l'argomento modello per 'const std::move_iterator<_Iter> &' da 'const std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<_Ty>>,std::_Iterator_base0>'
+          with
+          [
+              _Ty=std::pair<const int8_t,int64_t>
+          ]
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,45):
+  il contesto di creazione dell'istanza del modello (prima il meno recente) è
+  	C:\Users\paolo\Desktop\Prova immagini pam\Huffman\main.cpp(296,8):
+  	vedere il riferimento all'istanza 'void std::sort<std::_List_const_iterator<std::_List_val<std::_List_simple_types<_Ty>>>,huffman::SetNode::<lambda_1>>(const _RanIt,const _RanIt,_Pr)' della funzione modello di cui è in corso la compilazione
+          with
+          [
+              _Ty=std::pair<const int8_t,int64_t>,
+              _RanIt=std::_List_const_iterator<std::_List_val<std::_List_simple_types<std::pair<const int8_t,int64_t>>>>,
+              _Pr=huffman::SetNode::<lambda_1>
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,5): error C2672: '_Sort_unchecked': non sono state trovate funzioni in overload corrispondenti
+  (compilazione del file di origine 'main.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\algorithm(7952,19):
+  potrebbe essere 'void std::_Sort_unchecked(_RanIt,_RanIt,conditional_t<std::_Is_from_primary<std::iterator_traits<remove_cv<remove_reference<_Ty>::type>::type>>,std::incrementable_traits<remove_cv<remove_reference<_Ty>::type>::type>,std::iterator_traits<remove_cv<remove_reference<_Ty>::type>::type>>::difference_type,_Pr)'
+  	C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,5):
+  	'void std::_Sort_unchecked(_RanIt,_RanIt,conditional_t<std::_Is_from_primary<std::iterator_traits<remove_cv<remove_reference<_Ty>::type>::type>>,std::incrementable_traits<remove_cv<remove_reference<_Ty>::type>::type>,std::iterator_traits<remove_cv<remove_reference<_Ty>::type>::type>>::difference_type,_Pr)': sono previsti 4 argomenti - 3 specificati
+  
