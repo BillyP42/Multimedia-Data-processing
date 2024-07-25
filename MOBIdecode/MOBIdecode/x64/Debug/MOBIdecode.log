@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Users\paolo\Desktop\MOBIdecode\main.cpp(79,10): warning C4101: 'tmp1': variabile locale senza riferimenti
+C:\Users\paolo\Desktop\MOBIdecode\main.cpp(148,13): warning C4244: 'argomento': conversione da 'int16_t' a '_Elem'. Possibile perdita di dati.
+C:\Users\paolo\Desktop\MOBIdecode\main.cpp(148,13): warning C4244:         with
+C:\Users\paolo\Desktop\MOBIdecode\main.cpp(148,13): warning C4244:         [
+C:\Users\paolo\Desktop\MOBIdecode\main.cpp(148,13): warning C4244:             _Elem=char
+C:\Users\paolo\Desktop\MOBIdecode\main.cpp(148,13): warning C4244:         ]
+C:\Users\paolo\Desktop\MOBIdecode\main.cpp(172,15): warning C4309: 'inizializzazione': troncamento di valore costante
+C:\Users\paolo\Desktop\MOBIdecode\main.cpp(173,8): warning C4309: '=': troncamento di valore costante
+C:\Users\paolo\Desktop\MOBIdecode\main.cpp(174,8): warning C4309: '=': troncamento di valore costante
+C:\Users\paolo\Desktop\MOBIdecode\main.cpp(189,44): warning C4267: 'argomento': conversione da 'size_t' a 'int32_t'. Possibile perdita di dati.
+  MOBIdecode.vcxproj -> C:\Users\paolo\Desktop\MOBIdecode\x64\Debug\MOBIdecode.exe
